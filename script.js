@@ -1,5 +1,6 @@
 function validEmail(str) {
-  //your JS code here.
+  var regex = /^\S+@\S+\.\S+$/;
+  return regex.test(str);
 }
 
 // Do not change the code below.
